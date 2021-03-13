@@ -8,7 +8,7 @@ Make sure to have JAVA JDK and Maven installed and configured under Environment 
 
 *Method2* 
 - Download / clone the project from Git 
-- Open command prompt - change directory to the Kollex-automation-master/Automation
+- Open command prompt - change directory to the Coyo folder
 - mvn compile 
 
 (To run the test in chrome use the command below in command prompt)
