@@ -10,6 +10,6 @@ Make sure to have JAVA JDK and Maven installed and configured under Environment 
 - Download / clone the project from Git 
 - Open command prompt - change directory to the Coyo folder
 - mvn compile 
+- mvn test
 
-(To run the test in chrome use the command below in command prompt)
-mvn test
+
