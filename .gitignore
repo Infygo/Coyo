@@ -9,6 +9,8 @@
 *.pptx
 *.docx
 *.xlsx
+*.ods
+*.odt
 
 # Packages #
 ############
