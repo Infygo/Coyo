@@ -9,14 +9,16 @@ Then  Factorial of <number> is calculated
 And   Close the browser 
 
 Examples:
-|number   |        
+|number   |   
 |0        |
 |1        |
 |169      |
 |170      |
 |10       |
 |50       |
-|100      |
+|100      |     
+|!@#$%    |
+|abc      |
 
 
 

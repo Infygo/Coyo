@@ -50,7 +50,8 @@ public class StepDef extends Base {
 	@Then("^Factorial of (.+) is calculated$")
 	public void factorial_of_is_calculated(String number) throws Throwable {
 		w.until(ExpectedConditions.visibilityOf(factHomePage.getResult()));
-		Assert.assertTrue(factHomePage.getResult().getText().contains("The factorial of " + number + " is:"));
+		Assert.assertTrue(factHomePage.getResult().getText().contains("The factorial of " + number + " is:") || 
+				factHomePage.getResult().getText().contains("Please enter an integer") );
 		log.info("Factorial of the input number is calculated");
 		//System.out.println(factHomePage.getResult().getText());
 	}

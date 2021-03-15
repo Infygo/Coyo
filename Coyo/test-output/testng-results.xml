@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17006" started-at="2021-03-13T17:36:06Z" finished-at="2021-03-13T17:36:23Z">
+  <suite name="Suite" duration-ms="48113" started-at="2021-03-15T09:02:08Z" finished-at="2021-03-15T09:02:56Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="E2E FacorialTest" duration-ms="17006" started-at="2021-03-13T17:36:06Z" finished-at="2021-03-13T17:36:23Z">
+    <test name="E2E FacorialTest" duration-ms="48113" started-at="2021-03-15T09:02:08Z" finished-at="2021-03-15T09:02:56Z">
       <class name="testrun.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrun.TestRunner@72967906]" name="setUpClass" is-config="true" duration-ms="341" started-at="2021-03-13T17:36:06Z" finished-at="2021-03-13T17:36:06Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrun.TestRunner@72967906]" name="setUpClass" is-config="true" duration-ms="383" started-at="2021-03-15T09:02:08Z" finished-at="2021-03-15T09:02:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="10789" started-at="2021-03-13T17:36:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-13T17:36:17Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="6119" started-at="2021-03-15T09:02:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:14Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5838" started-at="2021-03-13T17:36:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-13T17:36:23Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5196" started-at="2021-03-15T09:02:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:19Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,119 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrun.TestRunner@72967906]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2021-03-13T17:36:23Z" finished-at="2021-03-13T17:36:23Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5488" started-at="2021-03-15T09:02:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5136" started-at="2021-03-15T09:02:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5080" started-at="2021-03-15T09:02:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5153" started-at="2021-03-15T09:02:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5137" started-at="2021-03-15T09:02:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5161" started-at="2021-03-15T09:02:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrun.TestRunner@72967906]" name="runScenario" duration-ms="5213" started-at="2021-03-15T09:02:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-15T09:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E process of calculating the factorial of an integer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Calculate factorial of an integer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrun.TestRunner@72967906]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2021-03-15T09:02:56Z" finished-at="2021-03-15T09:02:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
